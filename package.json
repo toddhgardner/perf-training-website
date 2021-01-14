@@ -1,0 +1,32 @@
+{
+  "name": "perf-training-website",
+  "version": "1.0.0",
+  "description": "Example website for 'Improving Web Performance' training",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toddhgardner/perf-training-website.git"
+  },
+  "keywords": [
+    "core web vitals",
+    "web vitals",
+    "largest contentful paint",
+    "first input delay",
+    "cumulative layout shift"
+  ],
+  "author": "Todd Gardner <todd@requestmetrics.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toddhgardner/perf-training-website/issues"
+  },
+  "homepage": "https://github.com/toddhgardner/perf-training-website#readme",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "compression": "^1.7.4",
+    "express": "4.17.1"
+  }
+}

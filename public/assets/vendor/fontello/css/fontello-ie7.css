@@ -1,0 +1,23 @@
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'fontello';
+  font-style: normal;
+  font-weight: normal;
+ 
+  /* fix buttons height */
+  line-height: 1em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+}
+ 
+.icon-thumbs-up { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
+.icon-info-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;'); }
+.icon-rss-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf143;&nbsp;'); }
+.icon-thumbs-up-alt { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf164;&nbsp;'); }
+.icon-youtube-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf166;&nbsp;'); }
+.icon-mail-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf199;&nbsp;'); }
+.icon-hacker-news { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1d4;&nbsp;'); }
+.icon-reddit-alien { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf281;&nbsp;'); }
+.icon-twitter-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf304;&nbsp;'); }
+.icon-facebook-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf308;&nbsp;'); }
+.icon-linkedin-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf30c;&nbsp;'); }
