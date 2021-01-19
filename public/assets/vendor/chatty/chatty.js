@@ -1,5 +1,7 @@
 (function() {
 
+  if (!window._chatty) { return; }
+
   var config = Object.assign({ open: true }, window._chatty);
 
   var container = null;
