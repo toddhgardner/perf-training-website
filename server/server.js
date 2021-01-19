@@ -29,7 +29,9 @@ if (!fs.existsSync(logFile)) {
 //
 // Server Basic Setup
 const server = express();
-server.use(compression({ filter: () => true }));
+if (config["server-compress"]) {
+  server.use(compression({ filter: () => true }));
+}
 server.use((req, res, next) => {
   setTimeout(next, config["server-delay"]);
 });
