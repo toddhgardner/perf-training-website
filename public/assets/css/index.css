@@ -1,5 +1,3 @@
-@import url(/assets/vendor/fontello/css/fontello.css);
-
 body.index .hero { padding: 40px 0; }
 body.index .hero .background-wrap { top: 0; left: 0; right: 0; display: flex; position: absolute; justify-content: center; z-index: -1; }
 body.index .hero .background-wrap .background { max-width: 1600px; width: 100vw; margin-right: 6vw; }
@@ -442,18 +440,6 @@ body.docs figure.code pre { min-height: 0; font-size: 1.2em; word-wrap: initial;
 .feature-wall .wall-container .wall-frame .wall-row a:hover h3, .feature-wall .wall-container .wall-frame .wall-row a:active h3, .feature-wall .wall-container .wall-frame .wall-row a:focus h3 { opacity: 1; }
 @media (max-width: 768px) { .feature-wall .wall-container .wall-frame .wall-row { padding: 0 93px; }
   .feature-wall .wall-container .wall-frame .wall-row a { min-width: 180px; margin: 6px; } }
-
-
-.consent-banner {
-  background-color: red;
-  height: 240px;
-}
-.consent-banner .container {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 20px;
-}
 
 .explainer { padding: 60px 0 0 0; }
 .explainer .container { flex-direction: column; align-items: center; }

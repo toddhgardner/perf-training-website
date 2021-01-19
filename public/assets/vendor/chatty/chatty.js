@@ -1,13 +1,15 @@
 (function() {
 
+  var config = Object.assign({ open: true }, window._chatty);
+
   var container = null;
   var toggleButton = null;
 
   function loadChatWidget() {
     container = document.createElement("div");
     container.innerHTML = "" +
-      "<div class='chatty-control'><button type='button' id='chatty-toggle'>X</button></div>"+
-      "<iframe src='/assets/vendor/chatty/index.html'></iframe>"
+      "<div class='chatty-control'><button type='button' id='chatty-toggle'>Hi</button></div>"+
+      "<iframe src='http://localhost:3001/assets/vendor/chatty/index.html'></iframe>"
     container.style.position = "fixed";
     container.style.bottom = "-600px";
     container.style.right = "10px";
@@ -22,9 +24,10 @@
     toggleButton = container.querySelector("#chatty-toggle");
     toggleButton.style.padding = "10px";
     toggleButton.style.margin = "10px";
-    toggleButton.style.backgroundColor = "";
+    toggleButton.style.backgroundColor = "#47b4a1";
+    toggleButton.style.color = "white";
     toggleButton.style.fontWeight = "bold";
-    toggleButton.style.border = "1px solid #CCC";
+    toggleButton.style.border = "2px solid #2a6a5f";
     toggleButton.style.borderRadius = "72px";
     toggleButton.style.fontSize = "40px";
     toggleButton.style.lineHeight = "50px";
@@ -35,6 +38,7 @@
     chattyFrame.style.border = "none";
     chattyFrame.style.height = "600px";
     chattyFrame.style.width = "100%";
+    chattyFrame.style.borderRadius = "6px";
 
     toggleButton.addEventListener("click", function() {
       if (toggleButton.textContent === "X") {
@@ -48,7 +52,9 @@
     document.body.appendChild(container);
 
     chattyFrame.addEventListener("load", function() {
-      setTimeout(open, 100);
+      if (config.open) {
+        setTimeout(open, 100);
+      }
     })
   }
 

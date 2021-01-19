@@ -1,3 +1,6 @@
 node_modules/
 npm-debug.log*
 .npm
+.DS_Store
+logs
+public/assets/images/**/*.min.*

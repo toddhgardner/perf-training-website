@@ -1,3 +1,5 @@
+@import url(/assets/vendor/fontello/css/fontello.css);
+@import url(/assets/css/banner.css);
 @import url(/assets/css/index.css);
 
 * { box-sizing: border-box; }
@@ -17,7 +19,7 @@ h1, h2, h3, h4, h5, h6 { font: 600 16px/1.5 "Poppins", Helvetica, Arial, sans-se
 main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
 
 /** Images */
-img { max-width: 100%; vertical-align: middle; }
+img { max-width: 100%; height: auto; vertical-align: middle; }
 
 /** Lists */
 li > ul, li > ol { margin-bottom: 0; }

@@ -1,9 +1,35 @@
 <html>
   <head>
     <link rel="stylesheet" href="/assets/vendor/chatty/chatty.css">
-    <script src="/assets/js/bulky.js"></script>
+    <script src="/assets/vendor/chatty/bulky.js"></script>
   </head>
   <body>
-    <h1>chatty</h1>
+    <div class="history">
+      <div class="row row1 hide">
+        <div class="head"><img src="/assets/vendor/chatty/avatar.png" height="48" width="48" /></div>
+        <div class="bubble">
+          <div class="name">Faux Marketson</div>
+          <div class="text">
+            Hey there! Can I help you find anything?
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="control">
+      <input type="text" placeholder="say something">
+      <button type="button">Say</button>
+    </div>
+
+    <div class="footer">
+      <p>Powered by Chatty</p>
+    </div>
+
+    <script>
+      setTimeout(function() {
+        document.querySelector(".row1").classList.remove("hide");
+      }, 1500);
+    </script>
+
   </body>
 </html>
