@@ -10,7 +10,7 @@
   },
   "config": {
     "server-port": 3000,
-    "server-delay": 200
+    "server-delay": 50
   },
   "repository": {
     "type": "git",
