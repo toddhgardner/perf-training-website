@@ -11,3 +11,8 @@ npm start
 
 Open a browser at [http://localhost:3000/](http://localhost:3000/) to view the website.
 
+## Related Resources:
+
+- [Performance Worksheet](https://docs.google.com/spreadsheets/d/10QlmdN4A1mtJFc2fLACjVftN2SOjsDuwgZ35slFKwG4/edit?usp=sharing)
+- [Example Performance Dashboard](https://docs.google.com/spreadsheets/d/1WkDM3yg--bs9XHm2C5rcG3kKOGfjuKYcOZHmCpufOyo/edit?usp=sharing)
+
