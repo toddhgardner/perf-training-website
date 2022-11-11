@@ -1,6 +1,11 @@
-# Improving Web Performance Demo Website
+# Fundamentals of Web Performance Demo Website
 
-This is example website for Todd Gardner's "Improving Web Performance" [Frontend Masters workshop](https://frontendmasters.com/courses/web-perf/). It is intended to illustrate common and effective techniques to improve the performance of a website. It is not meant to be used in production.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/toddhgardner/perf-training-website/slide_title.png" width="480">
+  <br />
+</p>
+
+This is example website for Todd Gardner's "Fundamentals of Web Performance" workshop. You can find he workshop online at [Frontend Masters](https://frontendmasters.com/courses/web-perf/). It is intended to illustrate common and effective techniques to improve the performance of a website. It is not meant to be used in production.
 
 ## How to use
 
@@ -13,6 +18,4 @@ Open a browser at [http://localhost:3000/](http://localhost:3000/) to view the w
 
 ## Related Resources:
 
-- [Performance Worksheet](https://docs.google.com/spreadsheets/d/10QlmdN4A1mtJFc2fLACjVftN2SOjsDuwgZ35slFKwG4/edit?usp=sharing)
-- [Example Performance Dashboard](https://docs.google.com/spreadsheets/d/1WkDM3yg--bs9XHm2C5rcG3kKOGfjuKYcOZHmCpufOyo/edit?usp=sharing)
-
+- [Slides and Materials](https://drive.google.com/drive/folders/13sdKqO8O2L1yr6th9HgPwpncZwTpEPGl?usp=sharing)
