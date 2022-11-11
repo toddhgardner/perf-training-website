@@ -1,7 +1,7 @@
 {
   "name": "perf-training-website",
-  "version": "1.0.0",
-  "description": "Example website for 'Improving Web Performance' training",
+  "version": "2.0.0",
+  "description": "Example website for 'Fundamentals of Web Performance' workshop",
   "main": "server/server.js",
   "scripts": {
     "imagemin": "node ./tools/imageOptimizer.js",
@@ -24,16 +24,16 @@
     "first input delay",
     "cumulative layout shift"
   ],
-  "author": "Todd Gardner <todd@requestmetrics.com>",
+  "author": "Todd Gardner <todd@toddhgardner.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/toddhgardner/perf-training-website/issues"
   },
   "homepage": "https://github.com/toddhgardner/perf-training-website#readme",
   "dependencies": {
-    "body-parser": "1.19.0",
-    "compression": "^1.7.4",
-    "express": "4.17.1",
+    "body-parser": "1.20.1",
+    "compression": "1.7.4",
+    "express": "4.18.2",
     "imagemin": "7.0.1",
     "imagemin-gifsicle": "7.0.0",
     "imagemin-jpegtran": "7.0.0",
