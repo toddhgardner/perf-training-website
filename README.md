@@ -1,7 +1,7 @@
 # Fundamentals of Web Performance Demo Website
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/toddhgardner/perf-training-website/slide_title.png" width="480">
+  <img src="https://raw.githubusercontent.com/toddhgardner/perf-training-website/main/slide_title.png" width="480">
   <br />
 </p>
 
