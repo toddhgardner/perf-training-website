@@ -456,16 +456,12 @@ body.docs figure.code pre { min-height: 0; font-size: 1.2em; word-wrap: initial;
   width: 100%;
   margin: 40px 0 0;
 }
-.explainer .video .vimeo {
+.explainer .video  {
   width: 100%;
   position: relative;
-  padding-bottom: calc((100%) * 9/16);
 }
-.explainer .video .vimeo iframe {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  border-radius: 6px;
+.explainer .video iframe {
+    height: 392px;
+    width: 100%;
+    border-radius: 6px;
 }
