@@ -10,24 +10,20 @@
   <meta name="description" content="Website performance monitoring, simplified. Get easy metrics and actionable alerts to make your website go faster.">
   <link rel="me" href="https://twitter.com/requestmetrics">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://www.youtube.com">
+  <link rel="preconnect" href="http://localhost:3001">
+  <link rel="preload" href="/assets/vendor/fontello/css/fontello.css">
+  <link rel="preload" href="/assets/css/banner.css">
+  <link rel="preload" href="/assets/css/index.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.min.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.min.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.min.png">
   <link rel="manifest" href="/assets/images/favicon/site.webmanifest.json">
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro&display=auto">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@400;600;700&family=Poppins:wght@400;600&display=auto">
   <link rel="stylesheet" href="/assets/css/main.css">
-
-  <script src="/assets/js/banner.js"></script>
-
-  <script>
-    // Configuration of inline chat widget Chatty.
-    // Options:
-    //   open @Boolean True if chat is open on load. False if closed.
-    window._chatty = { open: true };
-  </script>
-  <script src="http://localhost:3001/assets/vendor/chatty/chatty.js"></script>
 </head>
 
   <body class=" index">
@@ -36,7 +32,7 @@
     <div class="spacer"></div>
     <div class="site-logo">
       <a class="site-title" href="/">
-        <img src="/assets/images/request_metrics_logo.png" alt="Request Metrics"/>
+        <img src="/assets/images/request_metrics_logo.min.png" alt="Request Metrics"/>
       </a>
     </div>
     <nav class="site-nav flex">
@@ -65,7 +61,7 @@
 <main class="default-layout-content" aria-label="Content">
   <section class="hero relative">
   <div class="background-wrap">
-    <img class="background" src="/assets/images/illustrations/flying_sloth_2.png" alt="Sloth riding a rocket" />
+    <img class="background" src="/assets/images/illustrations/flying_sloth_2.min.png" alt="Sloth riding a rocket" />
   </div>
 
   <div class="container relative">
@@ -96,7 +92,7 @@
     <h2>How It Works</h2>
     <div class="video">
       <div class="vimeo">
-        <iframe src="https://www.youtube.com/embed/NhTcdbd-zYA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        <iframe data-src="https://www.youtube.com/embed/NhTcdbd-zYA" width="696" height="391" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
       </div>
     </div>
   </div>
@@ -109,19 +105,19 @@
       <h2>Our Features</h2>
       <ul>
         <li class="do flex">
-          <img src="/assets/images/checkmark-circle.svg" alt="checkmark">
+          <img src="/assets/images/checkmark-circle.min.svg" alt="checkmark">
           <span>Real User Performance Monitoring</span>
         </li>
         <li class="do flex">
-          <img src="/assets/images/checkmark-circle.svg" alt="checkmark">
+          <img src="/assets/images/checkmark-circle.min.svg" alt="checkmark">
           <span>Core Web Vital Metrics</span>
         </li>
         <li class="do flex">
-          <img src="/assets/images/checkmark-circle.svg" alt="checkmark">
+          <img src="/assets/images/checkmark-circle.min.svg" alt="checkmark">
           <span>Simple Reports &amp; Alerting</span>
         </li>
         <li class="do flex">
-          <img src="/assets/images/checkmark-circle.svg" alt="checkmark">
+          <img src="/assets/images/checkmark-circle.min.svg" alt="checkmark">
           <span>Predictably Affordable</span>
         </li>
       </ul>
@@ -131,19 +127,19 @@
       <h2>Their Features</h2>
       <ul>
         <li class="dont flex">
-          <img src="/assets/images/xmark-circle.svg" alt="No checkmark">
+          <img src="/assets/images/xmark-circle.min.svg" alt="No checkmark">
           <span>Fake "Synthetic" Performance</span>
         </li>
         <li class="dont flex">
-          <img src="/assets/images/xmark-circle.svg" alt="No checkmark">
+          <img src="/assets/images/xmark-circle.min.svg" alt="No checkmark">
           <span>Complex Query-Based Reporting</span>
         </li>
         <li class="dont flex">
-          <img src="/assets/images/xmark-circle.svg" alt="No checkmark">
+          <img src="/assets/images/xmark-circle.min.svg" alt="No checkmark">
           <span>Information Overload</span>
         </li>
         <li class="dont flex">
-          <img src="/assets/images/xmark-circle.svg" alt="No checkmark">
+          <img src="/assets/images/xmark-circle.min.svg" alt="No checkmark">
           <span>Unknowable Metered Pricing</span>
         </li>
       </ul>
@@ -157,8 +153,14 @@
 
     <div class="callout flex">
       <div class="picture">
-        <a href="/assets/images/callouts/callout-distribution-2400.png" target="_blank">
-          <img src="/assets/images/callouts/callout-distribution-2400.png"
+        <a href="/assets/images/callouts/callout-distribution-2400.min.png" target="_blank">
+          <img data-src="/assets/images/callouts/callout-distribution-600.min.png" width="600" height="450"
+            data-srcset="/assets/images/callouts/callout-distribution-600.min.png 600w,
+                         /assets/images/callouts/callout-distribution-900.min.png 900w,
+                         /assets/images/callouts/callout-distribution-1200.min.png 1200w"
+            sizes="(max-width: 600px) 600px,
+                   (max-width: 900px) 900px,
+                   1200px"
             alt="Chart page views and the distribution user load time" />
         </a>
       </div>
@@ -174,8 +176,14 @@
 
     <div class="callout left flex">
       <div class="picture">
-        <a href="/assets/images/callouts/callout-breakdown-2400.png" target="_blank">
-          <img src="/assets/images/callouts/callout-breakdown-2400.png"
+        <a href="/assets/images/callouts/callout-breakdown-2400.min.png" target="_blank">
+          <img data-src="/assets/images/callouts/callout-breakdown-600.min.png" width="600" height="450"
+            data-srcset="/assets/images/callouts/callout-breakdown-600.min.png 600w,
+                         /assets/images/callouts/callout-breakdown-900.min.png 900w,
+                         /assets/images/callouts/callout-breakdown-1200.min.png 1200w"
+            sizes="(max-width: 600px) 600px,
+                   (max-width: 900px) 900px,
+                   1200px"
             alt="Chart page views and the distribution user load time" />
         </a>
       </div>
@@ -190,9 +198,15 @@
 
     <div class="callout flex">
       <div class="picture">
-        <a href="/assets/images/callouts/callout-webvital-2400.png" target="_blank">
-          <img src="/assets/images/callouts/callout-webvital-2400.png"
-              alt="Chart page views and the distribution user load time" />
+        <a href="/assets/images/callouts/callout-webvital-2400.min.png" target="_blank">
+          <img data-src="/assets/images/callouts/callout-distribution-600.min.png" width="600" height="450"
+            data-srcset="/assets/images/callouts/callout-distribution-600.min.png 600w,
+                         /assets/images/callouts/callout-distribution-900.min.png 900w,
+                         /assets/images/callouts/callout-distribution-1200.min.png 1200w"
+            sizes="(max-width: 600px) 600px,
+                   (max-width: 900px) 900px,
+                   1200px"
+            alt="Chart page views and the distribution user load time" />
         </a>
       </div>
       <div class="blurb">
@@ -226,7 +240,7 @@
       </div>
 
       <div class="illustration">
-        <img src="/assets/images/illustrations/sloth_concerned.svg" alt="Sloth concerned."/>
+        <img data-src="/assets/images/illustrations/sloth_concerned.min.svg" alt="Sloth concerned."/>
       </div>
 
     </div>
@@ -240,7 +254,7 @@
 
       <div class="illustration">
         <h2 class="text-center">Your Website, Faster</h2>
-        <img src="/assets/images/illustrations/sloth_building_rocket.svg" alt="Sloth building a rocket"/>
+        <img data-src="/assets/images/illustrations/sloth_building_rocket.min.svg" alt="Sloth building a rocket"/>
       </div>
 
       <div class="advantage-list flex-column">
@@ -322,7 +336,7 @@
     <div class="footer-about">
       <div class="footer-logo">
         <a href="/">
-          <img src="/assets/images/request_metrics_logo_dark.svg" alt="Request Metrics" />
+          <img data-src="/assets/images/request_metrics_logo_dark.min.svg" alt="Request Metrics" />
         </a>
       </div>
       <div class="footer-text">
@@ -362,6 +376,23 @@
   </div>
 
 </footer>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro&display=auto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@400;600;700&family=Poppins:wght@400;600&display=auto">
+
+<script src="/assets/js/util/lazyloader.js" defer></script>
+<script src="/assets/js/util/perf.js" defer></script>
+<script src="/assets/js/banner.js" defer></script>
+
+<script>
+  // Configuration of inline chat widget Chatty.
+  // Options:
+  //   open @Boolean True if chat is open on load. False if closed.
+  if (document.body.clientWidth >= 600 ) {
+    window._chatty = { open: false };
+  }
+</script>
+<script src="http://localhost:3001/assets/vendor/chatty/chatty.js" defer></script>
 
   </body>
 </html>
